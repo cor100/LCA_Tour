@@ -1,0 +1,13 @@
+- !<AssetCache/6c3d023c-d6eb-b385-5365-2f4eb3a62bc0>
+  AssetFiles:
+    fadcaec2-7b9b-4dbd-88bc-78438a90c84e: cbd76c60-84fc-4ae8-9b35-ea66cfe31f2f/6c3d023cd6ebb38553652f4eb3a62bc0/Data/ss-IMG_9777-sculpture-1-co-lab-sp-19-0x1000-c-default.jpg
+  Assets:
+    - !<FileTexture/fadcaec2-7b9b-4dbd-88bc-78438a90c84e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1333
+        Height: 1000
+  SourceHash: 6c3d023cd6ebb38553652f4eb3a62bc0
+  FileHash: cf668c392bc963b08d1e4f04d18a8800
+  NativePackageItems:
+    []

@@ -1,0 +1,71 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 65
+    values:
+      - 3D RightArrow.prefab
+      - Art1.jpeg
+      - Art2.jpeg
+      - Art4.jpg
+      - Forum.jpeg
+      - Image 1.mat
+      - "Image Marker [EDIT_ME] 1.imgmarker"
+      - "Image Marker [EDIT_ME] 2.imgmarker"
+      - "Image Marker [EDIT_ME] 3.imgmarker"
+      - "Image Marker [EDIT_ME] 4.imgmarker"
+      - "Image Marker [EDIT_ME] 5.imgmarker"
+      - "Image Marker [EDIT_ME] 6.imgmarker"
+      - "Image Marker [EDIT_ME] 7.imgmarker"
+      - "Image Marker [EDIT_ME].imgmarker"
+      - Image.mat
+      - Image.png
+      - Images/10People4Things019-190-0x1000-c-default.jpg
+      - Images/D3V2053-0x1000-c-default.jpg
+      - Images/download.png
+      - Images/fi-IMG_2209_Wallace_HVC-1600x600-c-default-1600x600-c-default.jpg
+      - Images/hearst dance theater.png
+      - Images/sister-mok-rahn-painting-tongue-JS-lbox-865x649-e8e7e7.jpg
+      - Images/ss-IMG_9777-sculpture-1-co-lab-sp-19-0x1000-c-default.jpg
+      - Materials/CoLab1.mat
+      - Materials/CoLab2.mat
+      - Materials/Hearst.mat
+      - Materials/Hearst2.mat
+      - Materials/Hearst3.mat
+      - Materials/Lee1.mat
+      - Materials/Wallace.mat
+      - Materials/flat 1.ss_graph
+      - Materials/flat 2.ss_graph
+      - Materials/flat 3.ss_graph
+      - Materials/flat 4.ss_graph
+      - Materials/flat.ss_graph
+      - Prefabs/3D Arrow w Text.fbx
+      - Prefabs/3D Arrow w Text.fbx/.hidden
+      - Prefabs/3D Arrow w Text.fbx/.hidden/Material.001
+      - Prefabs/3D Arrow w Text.fbx/.hidden/white
+      - Prefabs/3D Arrow w Text.fbx/Materials
+      - Prefabs/3D Arrow w Text.fbx/Materials/Material.001
+      - Prefabs/3D Arrow w Text.fbx/Meshes
+      - Prefabs/3D Arrow w Text.fbx/Meshes/Arrow
+      - Prefabs/Hearst_Pic.prefab
+      - Prefabs/flat.ss_graph
+      - Prefabs/frame_with_text.prefab
+      - Screenshot 2024-10-31 at 4.50.16 PM.png
+      - Text3D 1.mat
+      - Text3D.mat
+      - d012fb4d4f39184006ebd2fe4b0a86b1.jpg
+      - flat 1.ss_graph
+      - flat.ss_graph
+      - hanging_picture_frame_01_4k.fbx/.hidden/hanging_picture_frame_01
+      - hanging_picture_frame_01_4k.fbx/.hidden/white
+      - hanging_picture_frame_01_4k.fbx/Materials/hanging_picture_frame_01
+      - hanging_picture_frame_01_4k.fbx/Materials/hanging_picture_frame_01_artwork
+      - hanging_picture_frame_01_4k.fbx/Materials/hanging_picture_frame_01_glass
+      - hanging_picture_frame_01_4k.fbx/Meshes/hanging_picture_frame_01
+      - hanging_picture_frame_01_4k.fbx/Meshes/hanging_picture_frame_011
+      - hanging_picture_frame_01_4k.fbx/Meshes/hanging_picture_frame_012
+      - hanging_picture_frame_01_4k.fbx/Textures/hanging_picture_frame_01_artwork_diff_4k
+      - hanging_picture_frame_01_4k.fbx/hanging_picture_frame_01_4k
+      - text_3d 1.ss_graph
+      - text_3d 2.ss_graph
+      - text_3d.ss_graph
+  options: 4

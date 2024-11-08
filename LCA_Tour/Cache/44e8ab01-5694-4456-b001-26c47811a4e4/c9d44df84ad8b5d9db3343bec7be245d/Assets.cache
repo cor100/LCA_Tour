@@ -1,0 +1,13 @@
+- !<AssetCache/c9d44df8-4ad8-b5d9-db33-43bec7be245d>
+  AssetFiles:
+    6e7e406d-94f6-4838-9ab7-b6268291ec8e: 44e8ab01-5694-4456-b001-26c47811a4e4/c9d44df84ad8b5d9db3343bec7be245d/Data/10People4Things019-190-0x1000-c-default.jpg
+  Assets:
+    - !<FileTexture/6e7e406d-94f6-4838-9ab7-b6268291ec8e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1333
+        Height: 1000
+  SourceHash: c9d44df84ad8b5d9db3343bec7be245d
+  FileHash: 9ddf5266c27ac12057fbf56c24c1c932
+  NativePackageItems:
+    []

@@ -1,0 +1,168 @@
+- !<ObjectPrefab/7d9a6000-a691-4dd9-9a85-18e87a6c85d3>
+  PackagePath: ""
+  objects:
+    - !<own> 96a18914-3d85-4221-90af-882b1325bfa9
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/1cfdfa1e-8b7d-4bfd-9d80-83dbb6c63940>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7dcdef4d-40e5-4aac-8ab6-603ea222cc3e
+- !<SceneObject/2c9405a8-d4c6-49dc-8dc4-84629127ef42>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 50.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e61c27d-04fa-47d9-8f89-220ca5f41564
+    - !<own> 3fef72b8-5ca7-4b28-8ed6-321f6abb1307
+    - !<own> 582d66b6-21c6-4383-aed4-e94ce1b33e37
+- !<RenderMeshVisual/3e61c27d-04fa-47d9-8f89-220ca5f41564>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a6431ab-61a0-430e-9f16-955168b69281
+  Mesh: !<reference> 7d701fb8-2cdb-4e31-a254-14ff7942103e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3fef72b8-5ca7-4b28-8ed6-321f6abb1307>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d302537e-ea57-44db-a8ca-6a33e086e56a
+  Mesh: !<reference> 5a23fd62-f35c-4f06-aace-6911e8c54989
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/582d66b6-21c6-4383-aed4-e94ce1b33e37>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f50fa730-ee1c-4bf8-b7d4-73ffbddc8c95
+  Mesh: !<reference> ca49280f-7256-4e0a-ab8a-2ac0df2aea2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/7dcdef4d-40e5-4aac-8ab6-603ea222cc3e>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |-
+    About
+    The Lewis Arts complex is home to the Programs
+    in Dance, Theater and Music Theater, and the
+    Princeton Atelier. The complex includes the
+    Wallace Dance Building and Theater, which
+    houses the Wallace Black Box Theater, the Hearst
+    Dance Theater, and several other theater and
+    dance studios, some of which are also used for
+    public performances; the Arts Tower, which
+    houses the Hurley Gallery, the CoLab, Ellie
+    ’
+    s
+    Dance Studio, a seminar room, administrative
+    offices, and is home to the Princeton Atelier; and
+    the Effron Music Building, which houses the Lee
+    Music Performance & Rehearsal Room, the
+    Princeton Laptop Orchestra (PLOrk) studio, the
+    Lee Jazz Studio, and two floors of instrumental
+    studios and practice rooms.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/96a18914-3d85-4221-90af-882b1325bfa9>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01_4k
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c9405a8-d4c6-49dc-8dc4-84629127ef42
+    - !<own> 1cfdfa1e-8b7d-4bfd-9d80-83dbb6c63940
+  Components:
+    []

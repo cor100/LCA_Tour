@@ -1,0 +1,13 @@
+- !<AssetCache/6984da32-907d-5874-e05b-8830cfd07c30>
+  AssetFiles:
+    5adb2266-784a-49f6-a4c5-f4245dc29b2e: 7ef3bbd8-9ddb-49b2-8d1a-4593f6f7ee08/6984da32907d5874e05b8830cfd07c30/Data/download.png
+  Assets:
+    - !<FileTexture/5adb2266-784a-49f6-a4c5-f4245dc29b2e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 1280
+  SourceHash: 6984da32907d5874e05b8830cfd07c30
+  FileHash: 4358121f2305003e7c0dc246f0f7d46d
+  NativePackageItems:
+    []

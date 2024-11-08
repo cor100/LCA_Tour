@@ -1,0 +1,193 @@
+- !<AssetImportMetadata/5c04b427-ccd8-4047-a076-7e50cbfd9763>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7d9a6000-a691-4dd9-9a85-18e87a6c85d3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7d9a6000-a691-4dd9-9a85-18e87a6c85d3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 78da9ff2-440f-467a-8817-263c852ed5d4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fd837f67-55e0-4920-9775-ce3f866dc649>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text3D/33079355-4635-4d26-bf3c-b8211c91fcfe>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |-
+    About
+    The Lewis Arts complex is home to the Programs
+    in Dance, Theater and Music Theater, and the
+    Princeton Atelier. The complex includes the
+    Wallace Dance Building and Theater, which
+    houses the Wallace Black Box Theater, the Hearst
+    Dance Theater, and several other theater and
+    dance studios, some of which are also used for
+    public performances; the Arts Tower, which
+    houses the Hurley Gallery, the CoLab, Ellie
+    ’
+    s
+    Dance Studio, a seminar room, administrative
+    offices, and is home to the Princeton Atelier; and
+    the Effron Music Building, which houses the Lee
+    Music Performance & Rehearsal Room, the
+    Princeton Laptop Orchestra (PLOrk) studio, the
+    Lee Jazz Studio, and two floors of instrumental
+    studios and practice rooms.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/345162cd-7a7d-4f50-8388-b8bfb025d437>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33079355-4635-4d26-bf3c-b8211c91fcfe
+- !<RenderMeshVisual/51a663bd-0705-4105-95ae-36fcf151dadf>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f50fa730-ee1c-4bf8-b7d4-73ffbddc8c95
+  Mesh: !<reference> ca49280f-7256-4e0a-ab8a-2ac0df2aea2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5e419e9c-250d-499f-84ab-05d9c46b2e5b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a6431ab-61a0-430e-9f16-955168b69281
+  Mesh: !<reference> 7d701fb8-2cdb-4e31-a254-14ff7942103e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/631064b7-03e8-4503-831c-b3d1b8435904>
+  PackagePath: ""
+  objects:
+    - !<own> b336e98b-2ff3-4049-8877-5595c1f34a12
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/78da9ff2-440f-467a-8817-263c852ed5d4>
+  SourceRemaps:
+    - 1cfdfa1e-8b7d-4bfd-9d80-83dbb6c63940: 345162cd-7a7d-4f50-8388-b8bfb025d437
+    - 2c9405a8-d4c6-49dc-8dc4-84629127ef42: cfb601da-fdef-4ed6-9363-ced09aa94a30
+    - 3e61c27d-04fa-47d9-8f89-220ca5f41564: 5e419e9c-250d-499f-84ab-05d9c46b2e5b
+    - 3fef72b8-5ca7-4b28-8ed6-321f6abb1307: 8692b7f7-ce61-4692-a6f4-7ba3432e5e52
+    - 582d66b6-21c6-4383-aed4-e94ce1b33e37: 51a663bd-0705-4105-95ae-36fcf151dadf
+    - 7d9a6000-a691-4dd9-9a85-18e87a6c85d3: 631064b7-03e8-4503-831c-b3d1b8435904
+    - 7dcdef4d-40e5-4aac-8ab6-603ea222cc3e: 33079355-4635-4d26-bf3c-b8211c91fcfe
+    - 96a18914-3d85-4221-90af-882b1325bfa9: b336e98b-2ff3-4049-8877-5595c1f34a12
+  SourceState: !<own> 631064b7-03e8-4503-831c-b3d1b8435904
+- !<RenderMeshVisual/8692b7f7-ce61-4692-a6f4-7ba3432e5e52>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d302537e-ea57-44db-a8ca-6a33e086e56a
+  Mesh: !<reference> 5a23fd62-f35c-4f06-aace-6911e8c54989
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b336e98b-2ff3-4049-8877-5595c1f34a12>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01_4k
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cfb601da-fdef-4ed6-9363-ced09aa94a30
+    - !<own> 345162cd-7a7d-4f50-8388-b8bfb025d437
+  Components:
+    []
+- !<SceneObject/cfb601da-fdef-4ed6-9363-ced09aa94a30>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 50.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5e419e9c-250d-499f-84ab-05d9c46b2e5b
+    - !<own> 8692b7f7-ce61-4692-a6f4-7ba3432e5e52
+    - !<own> 51a663bd-0705-4105-95ae-36fcf151dadf

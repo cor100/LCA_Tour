@@ -1,0 +1,13 @@
+- !<AssetCache/a7f29a09-7d0a-c829-ad5d-5125e4be6431>
+  AssetFiles:
+    151c3cee-5645-4180-b621-4bb40066f3b7: 6270e916-f31a-4bf2-8d73-7806ee202283/a7f29a097d0ac829ad5d5125e4be6431/Data/fi-IMG_2209_Wallace_HVC-1600x600-c-default-1600x600-c-default.jpg
+  Assets:
+    - !<FileTexture/151c3cee-5645-4180-b621-4bb40066f3b7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1600
+        Height: 600
+  SourceHash: a7f29a097d0ac829ad5d5125e4be6431
+  FileHash: 7f94026c855665ae2e40534c078367d0
+  NativePackageItems:
+    []

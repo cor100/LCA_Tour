@@ -1,0 +1,13 @@
+- !<AssetCache/134e4616-ec29-1cf9-9dc3-4631260263c8>
+  AssetFiles:
+    9bebec1c-2cfe-4090-8ff8-2ce42e22401d: bf06d4c4-340f-4b23-b9fc-a0090990f02e/134e4616ec291cf99dc34631260263c8/Data/D3V2053-0x1000-c-default.jpg
+  Assets:
+    - !<FileTexture/9bebec1c-2cfe-4090-8ff8-2ce42e22401d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1574
+        Height: 1000
+  SourceHash: 134e4616ec291cf99dc34631260263c8
+  FileHash: 248c519814450b4d86a3b7daf2ae33ec
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache/8e0006e2-fca0-6da2-ac2c-5266f501b714>
+  AssetFiles:
+    23f79807-0e63-4647-805b-79aa79829541: ee07ed34-0a89-4464-80b6-1a5b29661e9a/8e0006e2fca06da2ac2c5266f501b714/Data/Screenshot 2024-10-31 at 4.50.16 PM.png
+  Assets:
+    - !<FileTexture/23f79807-0e63-4647-805b-79aa79829541>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 554
+        Height: 546
+  SourceHash: 8e0006e2fca06da2ac2c5266f501b714
+  FileHash: f47772b989ce9c39105ba4c2a5b32bf8
+  NativePackageItems:
+    []

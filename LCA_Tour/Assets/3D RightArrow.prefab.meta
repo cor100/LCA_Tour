@@ -1,0 +1,132 @@
+- !<AssetImportMetadata/84e0a37f-931e-4658-8a6e-386444636116>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> fe20c7bc-cbd8-4231-b92d-4d2b57c4b647
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> fe20c7bc-cbd8-4231-b92d-4d2b57c4b647
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> e83c3242-0c95-4118-a4be-e26262915614
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f23d1139-9ad6-4111-8db2-41d679190ea2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/10d84858-2fac-4d06-a162-97ba8664ac35>
+  PrefabRemaps:
+    []
+  Name: 3D RightArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.682686, y: -12.587276, z: 25.852203}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b2ab3f3b-35a8-4447-bb6f-df8a7da2e9a5
+    - !<own> 219fbec8-f13e-4fc7-bb51-d23472263bf3
+  Components:
+    []
+- !<SceneObject/219fbec8-f13e-4fc7-bb51-d23472263bf3>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 12.755154, y: 2.524811, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5043c902-0b36-413c-969b-d05a90f8e6ae
+- !<Text3D/5043c902-0b36-413c-969b-d05a90f8e6ae>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |
+    This way to the information desk
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/72bdabf4-2b1e-4c4c-b2d5-b89c27d9bc75>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 42d03528-b626-44dd-b7b8-b2a59e108780
+  Mesh: !<reference> 9f700038-e030-4b6e-8a2d-e052d0b7785f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b2ab3f3b-35a8-4447-bb6f-df8a7da2e9a5>
+  PrefabRemaps:
+    []
+  Name: Arrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 30.000000, y: 30.000000, z: 30.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 72bdabf4-2b1e-4c4c-b2d5-b89c27d9bc75
+- !<ObjectPrefabAssetData/e83c3242-0c95-4118-a4be-e26262915614>
+  SourceRemaps:
+    - 116785ca-452b-4ba1-b5d8-9b73a86ee417: b2ab3f3b-35a8-4447-bb6f-df8a7da2e9a5
+    - 17c41da0-5f18-457d-802f-1d6fddf89563: 10d84858-2fac-4d06-a162-97ba8664ac35
+    - 622fdfb4-96cc-4832-ad37-8d29882a5035: 72bdabf4-2b1e-4c4c-b2d5-b89c27d9bc75
+    - ae355c6e-9d2e-42db-8c32-06e9a9874211: 219fbec8-f13e-4fc7-bb51-d23472263bf3
+    - f775a7ed-05b2-4720-b2d1-61d359b0a963: 5043c902-0b36-413c-969b-d05a90f8e6ae
+    - fe20c7bc-cbd8-4231-b92d-4d2b57c4b647: e95bc17d-75eb-4e61-95ac-2314a17eb25d
+  SourceState: !<own> e95bc17d-75eb-4e61-95ac-2314a17eb25d
+- !<ObjectPrefab/e95bc17d-75eb-4e61-95ac-2314a17eb25d>
+  PackagePath: ""
+  objects:
+    - !<own> 10d84858-2fac-4d06-a162-97ba8664ac35
+  LazyLoading: false
+  RetainAssets: true

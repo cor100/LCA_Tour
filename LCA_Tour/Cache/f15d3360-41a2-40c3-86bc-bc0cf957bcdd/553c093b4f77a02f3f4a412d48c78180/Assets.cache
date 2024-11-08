@@ -1,0 +1,13 @@
+- !<AssetCache/553c093b-4f77-a02f-3f4a-412d48c78180>
+  AssetFiles:
+    720a12fd-645c-4f21-b2ea-9dc2ebee7dfe: f15d3360-41a2-40c3-86bc-bc0cf957bcdd/553c093b4f77a02f3f4a412d48c78180/Data/Art2.jpeg
+  Assets:
+    - !<FileTexture/720a12fd-645c-4f21-b2ea-9dc2ebee7dfe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1280
+        Height: 1280
+  SourceHash: 553c093b4f77a02f3f4a412d48c78180
+  FileHash: ef62a3079760a7951f0a5f804a1eabe5
+  NativePackageItems:
+    []

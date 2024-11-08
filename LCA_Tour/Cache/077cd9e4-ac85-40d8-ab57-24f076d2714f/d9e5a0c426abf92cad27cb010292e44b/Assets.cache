@@ -1,0 +1,13 @@
+- !<AssetCache/d9e5a0c4-26ab-f92c-ad27-cb010292e44b>
+  AssetFiles:
+    cbf98b45-b660-41d7-89dd-6d377f139a23: 077cd9e4-ac85-40d8-ab57-24f076d2714f/d9e5a0c426abf92cad27cb010292e44b/Data/Forum.jpeg
+  Assets:
+    - !<FileTexture/cbf98b45-b660-41d7-89dd-6d377f139a23>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 626
+        Height: 626
+  SourceHash: d9e5a0c426abf92cad27cb010292e44b
+  FileHash: f40ecf7680508ee99b1548bb0b6f81ad
+  NativePackageItems:
+    []

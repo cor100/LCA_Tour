@@ -1,0 +1,13 @@
+- !<AssetCache/ed425f94-41b9-8961-c033-d65fb942268b>
+  AssetFiles:
+    ee173b3f-0788-4f81-b055-fbc6096e295f: cf132b63-b6d0-4412-82ed-403d96910a66/ed425f9441b98961c033d65fb942268b/Data/hearst dance theater.png
+  Assets:
+    - !<FileTexture/ee173b3f-0788-4f81-b055-fbc6096e295f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 1226
+  SourceHash: ed425f9441b98961c033d65fb942268b
+  FileHash: 7b9da3c665fe4651c8ef31021e83ff24
+  NativePackageItems:
+    []

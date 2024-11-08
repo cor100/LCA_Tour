@@ -1,0 +1,13 @@
+- !<AssetCache/23e82b63-4314-a482-8330-8d135ab4faf1>
+  AssetFiles:
+    5630b506-a205-45a4-8292-b3447176d594: 91fbcf98-28b1-4fb1-9b15-e005ac9d46c1/23e82b634314a48283308d135ab4faf1/Data/sister-mok-rahn-painting-tongue-JS-lbox-865x649-e8e7e7.jpg
+  Assets:
+    - !<FileTexture/5630b506-a205-45a4-8292-b3447176d594>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 865
+        Height: 649
+  SourceHash: 23e82b634314a48283308d135ab4faf1
+  FileHash: 5441515dda630602c34b32c659e227ca
+  NativePackageItems:
+    []

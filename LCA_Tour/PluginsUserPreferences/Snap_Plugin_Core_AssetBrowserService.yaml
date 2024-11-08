@@ -1,0 +1,11 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 44e8ab01-5694-4456-b001-26c47811a4e4: /Users/cynthia/Downloads/10People4Things019-190-0x1000-c-default.jpg
+    - 6270e916-f31a-4bf2-8d73-7806ee202283: /Users/cynthia/Downloads/fi-IMG_2209_Wallace_HVC-1600x600-c-default-1600x600-c-default.jpg
+    - 7ef3bbd8-9ddb-49b2-8d1a-4593f6f7ee08: /Users/cynthia/Downloads/download.png
+    - 91fbcf98-28b1-4fb1-9b15-e005ac9d46c1: /Users/cynthia/Downloads/sister-mok-rahn-painting-tongue-JS-lbox-865x649-e8e7e7.jpg
+    - bf06d4c4-340f-4b23-b9fc-a0090990f02e: /Users/cynthia/Downloads/D3V2053-0x1000-c-default.jpg
+    - cbd76c60-84fc-4ae8-9b35-ea66cfe31f2f: /Users/cynthia/Downloads/ss-IMG_9777-sculpture-1-co-lab-sp-19-0x1000-c-default.jpg
+    - cf132b63-b6d0-4412-82ed-403d96910a66: /Users/cynthia/Downloads/hearst dance theater.png
+  options: 4
