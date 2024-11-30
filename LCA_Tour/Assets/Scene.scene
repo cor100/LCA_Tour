@@ -186,8 +186,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -554,7 +554,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 100
   ExtrusionDepth: 0.050000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -675,9 +675,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 197.491669, y: -83.127899, z: -40.000000}
+    position: {x: 197.491669, y: -69.922043, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 552e0758-7ac1-44ab-83ac-0f27fca40a41
@@ -718,9 +718,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -0.344978, y: 44.273781, z: -40.000000}
+    position: {x: -34.414749, y: 44.273781, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> d5606414-1ce3-47e5-8171-6d911798f981
@@ -832,6 +832,7 @@
     - !<own> 0238f642-519e-42bb-aebf-c7740b04acd0
   Components:
     - !<own> 07bb6c78-ceb1-4294-90d2-3682aeb69770
+    - !<own> b8f9fc69-db8a-432b-b51b-4735011de2b3
 - !<MarkerTrackingComponent/3ec01ddc-e4e0-4b3d-a277-7e40ab7c091d>
   PrefabRemaps:
     []
@@ -1046,9 +1047,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 115.195480, y: -12.248177, z: -40.000000}
+    position: {x: 203.611862, y: -73.942108, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 05133268-f356-4677-978f-de743d27e020
@@ -1062,9 +1063,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 19.467632, z: 0.000000}
     rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 200.000000, y: 80.000000, z: 100.000000}
+    scale: {x: 117.948387, y: 80.000000, z: 59.457352}
     hasSegmentScaleCompensation: false
   Children:
     []
@@ -1134,7 +1135,7 @@
   LocalTransform:
     position: {x: 13.128716, y: 100.273544, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 953954ba-c2a1-4d6e-a7ab-dd95b9731ec2
@@ -1409,9 +1410,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 168.108337, y: -9.943638, z: -40.000000}
+    position: {x: 168.108337, y: 6.644497, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> a740ce03-fa23-494e-948b-a60c86fe522e
@@ -1462,7 +1463,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -27.509811, y: 17.660980, z: 0.000000}
+    position: {x: -2.795212, y: 17.660980, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 10000.000000, y: 32.000000, z: 10000.000000}
     hasSegmentScaleCompensation: false
@@ -1749,7 +1750,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 100
   ExtrusionDepth: 0.050000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1807,7 +1808,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 100
   ExtrusionDepth: 0.050000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -1917,7 +1918,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 100
   ExtrusionDepth: 0.050000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -2019,9 +2020,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 116.587807, y: -63.542503, z: -40.000000}
+    position: {x: 197.491699, y: -101.774460, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 5c32345c-7414-4e6a-8c82-68241177ce2d
@@ -2052,7 +2053,7 @@
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 60.000000, y: 80.000000, z: 40.000000}
+    scale: {x: 60.000000, y: 80.000000, z: 30.000000}
     hasSegmentScaleCompensation: false
   Children:
     []
@@ -2124,9 +2125,7 @@
     Dance Theater, and several other theater and
     dance studios, some of which are also used for
     public performances; the Arts Tower, which
-    houses the Hurley Gallery, the CoLab, Ellie
-    ’
-    s
+    houses the Hurley Gallery, the CoLab, Ellie's
     Dance Studio, a seminar room, administrative
     offices, and is home to the Princeton Atelier; and
     the Effron Music Building, which houses the Lee
@@ -2182,7 +2181,7 @@
   Layers: 1
   LocalTransform:
     position: {x: 1.024946, y: 0.000000, z: 40.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 270.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -2265,6 +2264,16 @@
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<DeviceTracking/b8f9fc69-db8a-432b-b51b-4735011de2b3>
+  PrefabRemaps:
+    []
+  Name: Device Tracking
+  Enabled: false
+  DeviceTrackingMode: World
+  RotationOptions: !<RotationOptions/00000000-0000-0000-0000-000000000000>
+    InvertRotation: false
+  SurfaceOptions: !<SurfaceOptions/00000000-0000-0000-0000-000000000000>
+    EnhanceWithNativeAR: false
 - !<SceneObject/bef6d4f1-f864-44c1-9d49-4c458e61ca52>
   PrefabRemaps:
     []
@@ -2372,7 +2381,7 @@
   LocalTransform:
     position: {x: 49.340469, y: 0.000000, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 37dcd772-54fd-4e0e-9355-e5577c6c727d
@@ -2511,9 +2520,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 119.644363, y: 51.056068, z: -40.000000}
+    position: {x: 185.260483, y: 2.547203, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> b0b7b818-ff0c-4cad-bf69-a14b0de6c6fa
@@ -2732,9 +2741,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 185.206924, y: 55.963440, z: -40.000000}
+    position: {x: 185.206924, y: 88.293457, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> bef6d4f1-f864-44c1-9d49-4c458e61ca52

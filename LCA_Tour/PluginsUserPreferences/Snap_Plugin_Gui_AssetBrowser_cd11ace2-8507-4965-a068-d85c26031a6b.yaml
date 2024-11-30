@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 65
+    size: 71
     values:
       - 3D RightArrow.prefab
       - Art1.jpeg
@@ -21,6 +21,12 @@ CollapsedEntities:
       - Image.png
       - Images/10People4Things019-190-0x1000-c-default.jpg
       - Images/D3V2053-0x1000-c-default.jpg
+      - Images/Markers/pixil-frame-0 (1).png
+      - Images/Markers/pixil-frame-0 (2).png
+      - Images/Markers/pixil-frame-0 (3).png
+      - Images/Markers/pixil-frame-0.png
+      - Images/Markers/pixilart-drawing (1).png
+      - Images/Markers/pixilart-drawing.png
       - Images/download.png
       - Images/fi-IMG_2209_Wallace_HVC-1600x600-c-default-1600x600-c-default.jpg
       - Images/hearst dance theater.png

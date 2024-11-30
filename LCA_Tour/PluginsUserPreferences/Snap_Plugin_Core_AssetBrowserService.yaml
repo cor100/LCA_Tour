@@ -1,11 +1,17 @@
 ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
+    - 43744588-7923-43e5-b338-d9ea86cf9193: /Users/cynthia/Downloads/pixil-frame-0 (1).png
     - 44e8ab01-5694-4456-b001-26c47811a4e4: /Users/cynthia/Downloads/10People4Things019-190-0x1000-c-default.jpg
+    - 52e4baac-20ad-4dd1-8169-fcc2aa1436df: /Users/cynthia/Downloads/pixilart-drawing (1).png
     - 6270e916-f31a-4bf2-8d73-7806ee202283: /Users/cynthia/Downloads/fi-IMG_2209_Wallace_HVC-1600x600-c-default-1600x600-c-default.jpg
     - 7ef3bbd8-9ddb-49b2-8d1a-4593f6f7ee08: /Users/cynthia/Downloads/download.png
     - 91fbcf98-28b1-4fb1-9b15-e005ac9d46c1: /Users/cynthia/Downloads/sister-mok-rahn-painting-tongue-JS-lbox-865x649-e8e7e7.jpg
+    - b3a8d83b-3866-422b-a629-79531cb631d3: /Users/cynthia/Downloads/pixilart-drawing.png
     - bf06d4c4-340f-4b23-b9fc-a0090990f02e: /Users/cynthia/Downloads/D3V2053-0x1000-c-default.jpg
     - cbd76c60-84fc-4ae8-9b35-ea66cfe31f2f: /Users/cynthia/Downloads/ss-IMG_9777-sculpture-1-co-lab-sp-19-0x1000-c-default.jpg
     - cf132b63-b6d0-4412-82ed-403d96910a66: /Users/cynthia/Downloads/hearst dance theater.png
+    - cfbfa04b-8fb3-4a65-9e10-b890b2df1ded: /Users/cynthia/Downloads/pixil-frame-0 (2).png
+    - d862cce7-fa0a-4683-8508-be8ce8427a32: /Users/cynthia/Downloads/pixil-frame-0 (3).png
+    - d8b408cc-57b6-49aa-936d-8737d4ed118f: /Users/cynthia/Downloads/pixil-frame-0.png
   options: 4

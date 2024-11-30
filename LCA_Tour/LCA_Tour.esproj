@@ -7,9 +7,9 @@ updateCheckpoint: 50
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 viewConfig:
   simulation:
-    device: No Simulation
-    cameraFov: 66.519997
-    fullFrameAspect: nan
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
     viewport: Maximized
     output: Live
     stereoOutputEye: Center
@@ -20,7 +20,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: LCA-TOUR
   lensDescriptors:
     []
   lensApplicability:
@@ -28,9 +28,9 @@ metaInfo:
     - Back
   lensClientCompatibilities:
     - Mobile
-    - Web
-  iconHash: ""
-  videoPreviewHash: ""
+    - Spectacles
+  iconHash: 032faed63697dd4a18be03ed1e41d0f9
+  videoPreviewHash: a5b3f28d6753e574d455fdb05088817e
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.2.1.24102400
   activationCamera: Front

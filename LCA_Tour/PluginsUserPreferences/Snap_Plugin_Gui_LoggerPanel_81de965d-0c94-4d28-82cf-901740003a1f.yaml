@@ -16,7 +16,7 @@ groupMessages:
   options: 4
 messageOriginFlags:
   type: int
-  value: 15
+  value: 6
   options: 4
 severitiesFilter:
   type: intset
