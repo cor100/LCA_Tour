@@ -1,0 +1,270 @@
+- !<ObjectPrefab/6de1ac2c-7f7b-4861-9a3b-83dde69383ed>
+  PackagePath: ""
+  objects:
+    - !<own> 91d04a34-f9d0-4b21-a8cc-47bb8eb49d8c
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/068bb115-a2fc-482d-a8f7-2e2a7f8f22ee>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a6431ab-61a0-430e-9f16-955168b69281
+  Mesh: !<reference> 7d701fb8-2cdb-4e31-a254-14ff7942103e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/37665ee6-f8e4-47d0-8320-320acfb51a57>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d302537e-ea57-44db-a8ca-6a33e086e56a
+  Mesh: !<reference> 5a23fd62-f35c-4f06-aace-6911e8c54989
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/3d22518b-41d5-468c-ab4c-12e17404bb7d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dd23edf3-71a8-4a1e-afa4-ff156d38bb84
+  Text: |
+    This way to the information desk
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/5f2cd1a2-b172-4699-96d2-ca32db4159ab>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f51eb043-00c7-43ee-b8ac-9fc93b690199
+- !<SceneObject/87cf61e2-ae23-4fb4-8944-ae806fcbbf8a>
+  PrefabRemaps:
+    []
+  Name: 3D RightArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.682686, y: -30.503262, z: 25.852203}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 893f24b8-95db-4984-a567-40fd31d7b9ac
+    - !<own> d109685b-15f5-4c41-9857-5f58224e5253
+  Components:
+    []
+- !<SceneObject/893f24b8-95db-4984-a567-40fd31d7b9ac>
+  PrefabRemaps:
+    []
+  Name: Arrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.025513, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8b2ea192-1291-4256-8f57-f55d1e2021fa
+- !<RenderMeshVisual/8b2ea192-1291-4256-8f57-f55d1e2021fa>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 42d03528-b626-44dd-b7b8-b2a59e108780
+  Mesh: !<reference> 9f700038-e030-4b6e-8a2d-e052d0b7785f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/91d04a34-f9d0-4b21-a8cc-47bb8eb49d8c>
+  PrefabRemaps:
+    []
+  Name: About
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.782501, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 920d4a52-a1f6-42d6-9a67-b498d3fb5f9d
+    - !<own> 5f2cd1a2-b172-4699-96d2-ca32db4159ab
+    - !<own> 87cf61e2-ae23-4fb4-8944-ae806fcbbf8a
+  Components:
+    []
+- !<SceneObject/920d4a52-a1f6-42d6-9a67-b498d3fb5f9d>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 50.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 068bb115-a2fc-482d-a8f7-2e2a7f8f22ee
+    - !<own> 37665ee6-f8e4-47d0-8320-320acfb51a57
+    - !<own> beed6728-53f1-48d4-9e53-080254abcef0
+- !<RenderMeshVisual/beed6728-53f1-48d4-9e53-080254abcef0>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f50fa730-ee1c-4bf8-b7d4-73ffbddc8c95
+  Mesh: !<reference> ca49280f-7256-4e0a-ab8a-2ac0df2aea2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d109685b-15f5-4c41-9857-5f58224e5253>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 12.755154, y: 2.524811, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3d22518b-41d5-468c-ab4c-12e17404bb7d
+- !<Text3D/f51eb043-00c7-43ee-b8ac-9fc93b690199>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |-
+    About
+    The Lewis Arts complex is home to the Programs
+    in Dance, Theater and Music Theater, and the
+    Princeton Atelier. The complex includes the
+    Wallace Dance Building and Theater, which
+    houses the Wallace Black Box Theater, the Hearst
+    Dance Theater, and several other theater and
+    dance studios, some of which are also used for
+    public performances; the Arts Tower, which
+    houses the Hurley Gallery, the CoLab, Ellie's
+    Dance Studio, a seminar room, administrative
+    offices, and is home to the Princeton Atelier; and
+    the Effron Music Building, which houses the Lee
+    Music Performance & Rehearsal Room, the
+    Princeton Laptop Orchestra (PLOrk) studio, the
+    Lee Jazz Studio, and two floors of instrumental
+    studios and practice rooms.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
