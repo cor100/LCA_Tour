@@ -477,7 +477,7 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.600000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: 5.000000
+    TileCount: !<float> 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
@@ -486,7 +486,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
@@ -496,7 +496,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     OffsetX: 0.250000
@@ -507,7 +507,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Margins:
@@ -721,7 +721,7 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: 5.000000
+    TileCount: !<float> 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
@@ -730,7 +730,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
@@ -740,7 +740,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     OffsetX: 0.250000
@@ -751,7 +751,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: 5.000000
+      TileCount: !<float> 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Margins:
