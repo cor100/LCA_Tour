@@ -1,0 +1,426 @@
+- !<AssetImportMetadata/3edcdc69-3344-44fa-a5d6-019be34e28a5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 0b4cb773-5d44-4b77-8753-072ee83b94e2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 0b4cb773-5d44-4b77-8753-072ee83b94e2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 89d91865-cab4-4a9f-8a56-57f072583567
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/58c6c684-d096-4f76-a419-c46e4361e122>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/014fc4a9-731b-4f99-894f-b1dcda59332f>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1269456e-7423-4b8a-b419-54f42d9b4ef8
+  Mesh: !<reference> 37e707e4-56ed-4163-976a-9b6b7f9efd9c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1851fbd0-3a4b-4412-846e-c5eebdb743d3>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -2.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10000.000000, y: 32.000000, z: 10000.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c2e7f183-5b0c-4161-84ef-49843fee71da
+- !<RenderMeshVisual/1ef5cbd4-6022-4581-86c6-0828aa18f1e4>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1269456e-7423-4b8a-b419-54f42d9b4ef8
+  Mesh: !<reference> 37e707e4-56ed-4163-976a-9b6b7f9efd9c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/27f6f2ae-e42c-4d98-bd20-96a42b1f115d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d477eb6-28d6-46e0-823c-423e696695ff
+  Text: |
+    Wallace Theater
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/5712162e-5712-48de-bc0a-6891e5bf7a8a>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dd5a0cd1-0517-4408-bea2-834a04088a73
+- !<SceneObject/604c0bf0-fbbf-44b1-a8ee-df97ac1464eb>
+  PrefabRemaps:
+    []
+  Name: Wallace_text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 185.260483, y: 2.547203, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 95a1500d-06f2-491f-b664-095c09285ed3
+    - !<own> 5712162e-5712-48de-bc0a-6891e5bf7a8a
+    - !<own> 8134532d-d007-459f-959c-9520357110c7
+  Components:
+    []
+- !<ObjectPrefab/644afe1b-0680-41a5-96cc-e12fa6e5aafe>
+  PackagePath: ""
+  objects:
+    - !<own> 604c0bf0-fbbf-44b1-a8ee-df97ac1464eb
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/6c274b7b-6a8d-4b34-a628-bf87d3837bca>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -21.699028, z: 1.014600}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 74821985-3cd5-4276-95f0-bf2fcd33509a
+- !<Text3D/74821985-3cd5-4276-95f0-bf2fcd33509a>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d477eb6-28d6-46e0-823c-423e696695ff
+  Text: "Unique stage design: white textured wall located stage back has its own light setup for maximum lighting flexibility, and can be removed for additional stage space behind the wall. "
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 40
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/8134532d-d007-459f-959c-9520357110c7>
+  PrefabRemaps:
+    []
+  Name: Wallace
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.026779, y: 42.873127, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb04f18d-80f7-4e3b-8a8c-39b0750c684f
+    - !<own> 1851fbd0-3a4b-4412-846e-c5eebdb743d3
+    - !<own> 6c274b7b-6a8d-4b34-a628-bf87d3837bca
+    - !<own> 8c0bedd8-2113-4e63-8230-cccb68c6f689
+  Components:
+    []
+- !<ObjectPrefabAssetData/89d91865-cab4-4a9f-8a56-57f072583567>
+  SourceRemaps:
+    - 03cea845-b01f-4a10-a94b-866864fbc24a: 74821985-3cd5-4276-95f0-bf2fcd33509a
+    - 06c8a8e8-8519-4bd8-b63f-1847cb493345: 604c0bf0-fbbf-44b1-a8ee-df97ac1464eb
+    - 0b4cb773-5d44-4b77-8753-072ee83b94e2: 644afe1b-0680-41a5-96cc-e12fa6e5aafe
+    - 1527eea7-43b0-4cbc-9a92-131732a45fb1: bb04f18d-80f7-4e3b-8a8c-39b0750c684f
+    - 1b718936-a8a6-4776-a31f-2593b8131810: f292dc4b-443b-442b-a2e9-e649327733ea
+    - 2338993a-9746-404e-b068-fb502d374112: 95a1500d-06f2-491f-b664-095c09285ed3
+    - 32a4fd6b-7f81-4be8-a31a-f695eab2fc79: dd5a0cd1-0517-4408-bea2-834a04088a73
+    - 39eae534-d2fe-43d1-985e-dc4f59345b5c: 1851fbd0-3a4b-4412-846e-c5eebdb743d3
+    - 7462affc-802f-4cf2-b66e-aa16f968bd7a: 8c0bedd8-2113-4e63-8230-cccb68c6f689
+    - 75f21b6c-abea-487f-9fe6-24259bcb072c: 014fc4a9-731b-4f99-894f-b1dcda59332f
+    - 7c277687-9208-417b-a066-5480c53fe666: bcc97b3b-566e-484b-b64f-dc7b6f2e5080
+    - 865e6bf3-52d2-40d6-933f-7539504689f1: e33c7f19-8e41-4bcf-95c3-431fea498e4d
+    - a77010f3-ec01-46b4-9670-fa6ab0ca6c8b: 1ef5cbd4-6022-4581-86c6-0828aa18f1e4
+    - ac6a3491-8a12-4dba-8c4c-b1abd4f28338: 6c274b7b-6a8d-4b34-a628-bf87d3837bca
+    - ad18743b-9113-4ce8-8c07-166b2e6969eb: 8134532d-d007-459f-959c-9520357110c7
+    - c753905b-79e9-405d-abc4-e0f956e0c167: c2e7f183-5b0c-4161-84ef-49843fee71da
+    - e5246864-b4c6-431c-bfb4-c4086ebfe448: 27f6f2ae-e42c-4d98-bd20-96a42b1f115d
+    - e89101cc-87e1-430d-8d18-69e6ca6e4d39: 5712162e-5712-48de-bc0a-6891e5bf7a8a
+    - fa843821-84c4-4c02-8cfc-1a2b6208f84b: e4e6b93f-2291-4304-b440-6fb17e169d4a
+  SourceState: !<own> 644afe1b-0680-41a5-96cc-e12fa6e5aafe
+- !<SceneObject/8c0bedd8-2113-4e63-8230-cccb68c6f689>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 16.682297, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 27f6f2ae-e42c-4d98-bd20-96a42b1f115d
+- !<SceneObject/95a1500d-06f2-491f-b664-095c09285ed3>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 60.000000, y: 80.000000, z: 30.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bcc97b3b-566e-484b-b64f-dc7b6f2e5080
+    - !<own> f292dc4b-443b-442b-a2e9-e649327733ea
+    - !<own> 1ef5cbd4-6022-4581-86c6-0828aa18f1e4
+- !<SceneObject/bb04f18d-80f7-4e3b-8a8c-39b0750c684f>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.994293, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 150.000000, y: 100.000000, z: 53.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e33c7f19-8e41-4bcf-95c3-431fea498e4d
+    - !<own> e4e6b93f-2291-4304-b440-6fb17e169d4a
+    - !<own> 014fc4a9-731b-4f99-894f-b1dcda59332f
+- !<RenderMeshVisual/bcc97b3b-566e-484b-b64f-dc7b6f2e5080>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d1d5b39a-83b4-499d-8020-b52d8a967ece
+  Mesh: !<reference> 5e4298c9-6444-466c-87a0-b23fd5f61bab
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Image/c2e7f183-5b0c-4161-84ef-49843fee71da>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e85ffbd0-6d83-4c90-9c8a-4a89d309c01e
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Text3D/dd5a0cd1-0517-4408-bea2-834a04088a73>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d477eb6-28d6-46e0-823c-423e696695ff
+  Text: |-
+    Wallace Theater
+    The Wallace Theater is a 3,600 square foot black
+    box theater designed to support a variety of
+    production types including drama, musicals, dance,
+    and multimedia events. The multi-form theater can
+    seat up to 150 in various flexible audience
+    configurations and includes a mezzanine level seating
+    gallery. The adjacent Theater Annex functions as an
+    extension to the black box theater stage or can be
+    walled off as a separate space.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/e33c7f19-8e41-4bcf-95c3-431fea498e4d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d1d5b39a-83b4-499d-8020-b52d8a967ece
+  Mesh: !<reference> 5e4298c9-6444-466c-87a0-b23fd5f61bab
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e4e6b93f-2291-4304-b440-6fb17e169d4a>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2b012c72-4f2a-4ceb-bb23-aabb53cbda2a
+  Mesh: !<reference> e0527d55-84c5-4d92-be7c-5d45c643cc0e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f292dc4b-443b-442b-a2e9-e649327733ea>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2b012c72-4f2a-4ceb-bb23-aabb53cbda2a
+  Mesh: !<reference> e0527d55-84c5-4d92-be7c-5d45c643cc0e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

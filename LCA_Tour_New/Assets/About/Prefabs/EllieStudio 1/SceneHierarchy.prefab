@@ -1,0 +1,152 @@
+- !<ObjectPrefab/01c0340e-674b-4056-ba05-246e8f91e110>
+  PackagePath: ""
+  objects:
+    - !<own> cc1bfe4a-9fdb-440f-ada5-a6159ab92c34
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/00c001fc-19e7-40cc-a243-de1f5935f27f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ba98129-684f-42e2-8cbd-7408f6daab11
+  Mesh: !<reference> a3a802ca-13c7-4c7e-ad5e-7a259dee2cb8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/01ad73e5-beb2-4669-ba90-c569f2b3d353>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c380ff6-5214-4e10-8b51-93fc95242997
+- !<RenderMeshVisual/0daefc65-dc9b-4777-ac54-744cafc9bd5e>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bdb20f7e-1096-416f-a62c-eafe0417d2f7
+  Mesh: !<reference> e700f03b-f5b1-4838-8043-7d715689e638
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/8c380ff6-5214-4e10-8b51-93fc95242997>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 63f87dbd-afbf-49b0-9c7a-d227d19c19ea
+  Text: |-
+    Ellie's Dance Studio
+    Ellie's Dance Studio, located on the 2nd floor,  functions as a classroom and rehearsal space,
+     and occasionally as an informal performance space.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/a4b0a7e4-5411-428f-93b6-583dc7f4f03c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 717112e8-d048-4d7b-9fd4-04a8a6b5a4ba
+  Mesh: !<reference> 31b0052b-1e9e-4584-bc14-bb5893c87a26
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cc1bfe4a-9fdb-440f-ada5-a6159ab92c34>
+  PrefabRemaps:
+    []
+  Name: EllieStudio
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -20.440639, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ee5be04c-8370-4223-9b2c-e91a728c570e
+    - !<own> 01ad73e5-beb2-4669-ba90-c569f2b3d353
+  Components:
+    []
+- !<SceneObject/ee5be04c-8370-4223-9b2c-e91a728c570e>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 15.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a4b0a7e4-5411-428f-93b6-583dc7f4f03c
+    - !<own> 00c001fc-19e7-40cc-a243-de1f5935f27f
+    - !<own> 0daefc65-dc9b-4777-ac54-744cafc9bd5e

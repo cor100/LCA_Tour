@@ -1,0 +1,177 @@
+- !<AssetImportMetadata/6f2f186b-3070-465a-a96b-b5e102226c7e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 01c0340e-674b-4056-ba05-246e8f91e110
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 01c0340e-674b-4056-ba05-246e8f91e110
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> d702efc8-fd7e-4e42-87fa-3da0b88fe2c9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/5bd64717-3b20-4d62-a6f4-a66a099c147a>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/1c8dcdb1-ed9e-48af-a07c-95c8b9ce9572>
+  PackagePath: ""
+  objects:
+    - !<own> c7faaee0-48cd-4457-b9f5-90f858744c1f
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5456b5a4-8dd7-43f9-9dac-d6fcee22278e>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 15.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eadeede7-99d1-4c54-92c4-a3cadd589c28
+    - !<own> d4caebb0-298c-4d78-b84f-13ad78451cf3
+    - !<own> b87d5f2a-02b4-44e9-b5b8-527f3c105ac2
+- !<SceneObject/8a39660b-9bc1-4504-a59f-199c7f28a223>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c903e7ab-a3e6-4cc5-a477-f21da1ccf668
+- !<RenderMeshVisual/b87d5f2a-02b4-44e9-b5b8-527f3c105ac2>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bdb20f7e-1096-416f-a62c-eafe0417d2f7
+  Mesh: !<reference> e700f03b-f5b1-4838-8043-7d715689e638
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7faaee0-48cd-4457-b9f5-90f858744c1f>
+  PrefabRemaps:
+    []
+  Name: EllieStudio
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -20.440639, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5456b5a4-8dd7-43f9-9dac-d6fcee22278e
+    - !<own> 8a39660b-9bc1-4504-a59f-199c7f28a223
+  Components:
+    []
+- !<Text3D/c903e7ab-a3e6-4cc5-a477-f21da1ccf668>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 63f87dbd-afbf-49b0-9c7a-d227d19c19ea
+  Text: |-
+    Ellie's Dance Studio
+    Ellie's Dance Studio, located on the 2nd floor,  functions as a classroom and rehearsal space,
+     and occasionally as an informal performance space.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/d4caebb0-298c-4d78-b84f-13ad78451cf3>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ba98129-684f-42e2-8cbd-7408f6daab11
+  Mesh: !<reference> a3a802ca-13c7-4c7e-ad5e-7a259dee2cb8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/d702efc8-fd7e-4e42-87fa-3da0b88fe2c9>
+  SourceRemaps:
+    - 00c001fc-19e7-40cc-a243-de1f5935f27f: d4caebb0-298c-4d78-b84f-13ad78451cf3
+    - 01ad73e5-beb2-4669-ba90-c569f2b3d353: 8a39660b-9bc1-4504-a59f-199c7f28a223
+    - 01c0340e-674b-4056-ba05-246e8f91e110: 1c8dcdb1-ed9e-48af-a07c-95c8b9ce9572
+    - 0daefc65-dc9b-4777-ac54-744cafc9bd5e: b87d5f2a-02b4-44e9-b5b8-527f3c105ac2
+    - 8c380ff6-5214-4e10-8b51-93fc95242997: c903e7ab-a3e6-4cc5-a477-f21da1ccf668
+    - a4b0a7e4-5411-428f-93b6-583dc7f4f03c: eadeede7-99d1-4c54-92c4-a3cadd589c28
+    - cc1bfe4a-9fdb-440f-ada5-a6159ab92c34: c7faaee0-48cd-4457-b9f5-90f858744c1f
+    - ee5be04c-8370-4223-9b2c-e91a728c570e: 5456b5a4-8dd7-43f9-9dac-d6fcee22278e
+  SourceState: !<own> 1c8dcdb1-ed9e-48af-a07c-95c8b9ce9572
+- !<RenderMeshVisual/eadeede7-99d1-4c54-92c4-a3cadd589c28>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 717112e8-d048-4d7b-9fd4-04a8a6b5a4ba
+  Mesh: !<reference> 31b0052b-1e9e-4584-bc14-bb5893c87a26
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

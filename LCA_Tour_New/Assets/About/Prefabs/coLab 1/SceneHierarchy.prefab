@@ -1,0 +1,373 @@
+- !<ObjectPrefab/0ce2e1aa-be17-40cf-85c6-90e51499132f>
+  PackagePath: ""
+  objects:
+    - !<own> 3dd716ec-276a-463f-a021-c360d1d060d1
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/09bd681c-d921-4ea8-b266-e9a57432cd26>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d74e3497-f0d0-4f77-a0af-19bd3fb85cd3
+  Mesh: !<reference> f5658cbf-daa8-4c9d-aca4-1909ad3811a9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1cdc1ff4-f4ac-4c6d-97b5-f055622ef3e8>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 16.029480, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 155.000000, y: 100.000000, z: 60.815342}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 57be5dce-df7e-487b-8998-cee2fbe97da3
+    - !<own> 09bd681c-d921-4ea8-b266-e9a57432cd26
+    - !<own> 8e70b21a-9467-4c02-a512-208f805a6cd5
+- !<Image/1f160f62-30c9-4eee-a0c5-40d26402a29d>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a5a20cfc-30c5-4436-8458-7bd8f2287e10
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2accae2c-e381-49e0-b049-cbc14985fa09>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 16.029499, y: 20.832832, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dda44add-f845-4c56-ac5b-536aeda35d02
+- !<SceneObject/39ae3af7-65f7-4996-a1b4-c04f8822dda4>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 95ccd46f-37b9-496e-a34b-2fe6f1be6cf9
+- !<SceneObject/3dd716ec-276a-463f-a021-c360d1d060d1>
+  PrefabRemaps:
+    []
+  Name: coLab
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 203.611862, y: -73.942108, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d13c5006-5aa9-497e-925b-24a2d5654930
+    - !<own> 39ae3af7-65f7-4996-a1b4-c04f8822dda4
+    - !<own> b6477518-786e-4916-8e37-2d98996fa67a
+  Components:
+    []
+- !<RenderMeshVisual/3e3604bc-d526-4488-a1d2-0db9ac16b51f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d74e3497-f0d0-4f77-a0af-19bd3fb85cd3
+  Mesh: !<reference> f5658cbf-daa8-4c9d-aca4-1909ad3811a9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4023c28d-1e9c-4ece-af37-f958d4cc9d8c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a8f159b6-59b8-45c7-8d2a-96e3baf19a6f
+  Mesh: !<reference> e8a73202-9d48-487e-9ba0-b0955740a253
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/57be5dce-df7e-487b-8998-cee2fbe97da3>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a8f159b6-59b8-45c7-8d2a-96e3baf19a6f
+  Mesh: !<reference> e8a73202-9d48-487e-9ba0-b0955740a253
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/60aebe78-f190-449e-a4db-6eec841495bf>
+  PrefabRemaps:
+    []
+  Name: Image Copy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 38.219757, y: 1.706779, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 32.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f160f62-30c9-4eee-a0c5-40d26402a29d
+- !<RenderMeshVisual/83043ed5-4295-4382-b833-f3c37a728072>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4b5ef369-6eac-42b8-a186-5950a2663b0e
+  Mesh: !<reference> 17d1f35e-4e02-40c7-a701-f3a035ec471a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8e70b21a-9467-4c02-a512-208f805a6cd5>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4b5ef369-6eac-42b8-a186-5950a2663b0e
+  Mesh: !<reference> 17d1f35e-4e02-40c7-a701-f3a035ec471a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/95ccd46f-37b9-496e-a34b-2fe6f1be6cf9>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ed7049eb-e723-4f55-8a42-7679fdb1393e
+  Text: |-
+    CoLab
+    Nestled in one corner of the Forum is the CoLab, a
+    flexible 1,550 square-foot “
+    white box
+    ” that can be
+    utilized for a range of activities such as exhibitions,
+    installations, performances, receptions, and short-
+    term projects. Pivoting partition walls comprise the
+    west wall of the CoLab, which can be opened to the
+    Forum or closed to define the space.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/b6477518-786e-4916-8e37-2d98996fa67a>
+  PrefabRemaps:
+    []
+  Name: coLab_pic
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.751762, y: 40.293304, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1cdc1ff4-f4ac-4c6d-97b5-f055622ef3e8
+    - !<own> ce87d1c8-d365-4463-873b-32f087c1d286
+    - !<own> 60aebe78-f190-449e-a4db-6eec841495bf
+    - !<own> 2accae2c-e381-49e0-b049-cbc14985fa09
+  Components:
+    []
+- !<SceneObject/ce87d1c8-d365-4463-873b-32f087c1d286>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -6.078262, y: -8.100147, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 10000.000000, y: 32.000000, z: 10000.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e16af598-a29f-4c69-99e9-4f5bdfe2a112
+- !<SceneObject/d13c5006-5aa9-497e-925b-24a2d5654930>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 55.000000, y: 80.000000, z: 30.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4023c28d-1e9c-4ece-af37-f958d4cc9d8c
+    - !<own> 3e3604bc-d526-4488-a1d2-0db9ac16b51f
+    - !<own> 83043ed5-4295-4382-b833-f3c37a728072
+- !<Text3D/dda44add-f845-4c56-ac5b-536aeda35d02>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ed7049eb-e723-4f55-8a42-7679fdb1393e
+  Text: |
+    CoLab
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<Image/e16af598-a29f-4c69-99e9-4f5bdfe2a112>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 02e49f40-e531-423d-9cd4-14bf3eba5197
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000

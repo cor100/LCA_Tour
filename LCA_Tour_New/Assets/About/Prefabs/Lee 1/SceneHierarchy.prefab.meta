@@ -1,0 +1,367 @@
+- !<AssetImportMetadata/1d67f4c6-d874-4375-9c48-f8a593b6d742>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b158ca00-580a-4348-a3d0-789909dfd83e
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b158ca00-580a-4348-a3d0-789909dfd83e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> c51d955f-99e4-4a7f-88ae-cc55fa95125b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f5562a3d-f5a6-456f-8e12-ac1edd1a3027>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text3D/16039a11-68ff-405f-b9d8-dabd28170681>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 800d55ae-9d34-4b29-8b66-cbe29d523104
+  Text: |-
+    Lee Music Performance Room
+    
+    The Lee Music Performance &
+    Rehearsal Room, located on the forum
+    floor, is a 3,500-square-foot space with
+    soaring 30-foot ceilings.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/198ad3f8-b4af-45c2-b79a-a0cc2a3e0127>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 254d0a8e-7d47-4e8d-aeef-4bcf03b4dc9f
+  Mesh: !<reference> 96a46b05-1238-4a52-8e5b-2ad0eae758d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5384b167-d85d-49a7-ae38-0b1c6d9062c5>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 19.467632, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 117.948387, y: 80.000000, z: 59.457352}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 198ad3f8-b4af-45c2-b79a-a0cc2a3e0127
+    - !<own> f22f7c33-2862-4f12-a992-66d81f1982a3
+    - !<own> 8dbc8725-8d39-4e91-b695-07619e76f54f
+- !<SceneObject/58043c98-415c-4b1b-aaec-7ae6585be2f8>
+  PrefabRemaps:
+    []
+  Name: Lee
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 197.491699, y: -101.774460, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9c452511-81d5-454d-97f1-204fc9f66c97
+    - !<own> 718582d9-39b5-42b0-b9b2-2524587fd331
+    - !<own> 81d9cb81-9f97-4829-b4ae-238349ba98fb
+  Components:
+    []
+- !<SceneObject/64617f9e-4bd0-4895-a9b3-15abec2ed977>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 37.794044, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f42b1d6c-eb2b-47d1-8b80-25ed6ba5b2db
+- !<SceneObject/718582d9-39b5-42b0-b9b2-2524587fd331>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 16039a11-68ff-405f-b9d8-dabd28170681
+- !<SceneObject/81d9cb81-9f97-4829-b4ae-238349ba98fb>
+  PrefabRemaps:
+    []
+  Name: Lee_Pic
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000015, y: 15.926208, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5384b167-d85d-49a7-ae38-0b1c6d9062c5
+    - !<own> 64617f9e-4bd0-4895-a9b3-15abec2ed977
+    - !<own> 900b9db2-06e0-494a-817e-9704e2daefa1
+  Components:
+    []
+- !<RenderMeshVisual/882f945e-cefa-4111-a21f-178cbb266666>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 254d0a8e-7d47-4e8d-aeef-4bcf03b4dc9f
+  Mesh: !<reference> 96a46b05-1238-4a52-8e5b-2ad0eae758d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8dbc8725-8d39-4e91-b695-07619e76f54f>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77a760cf-f9eb-41d4-b5eb-1f23a446c35b
+  Mesh: !<reference> e5c14297-9a33-4bdd-82fb-65e78515f5cb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/900b9db2-06e0-494a-817e-9704e2daefa1>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.795212, y: 17.660980, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 10000.000000, y: 32.000000, z: 10000.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ef90574c-52a0-4ecd-9ba6-e762e0913a03
+- !<SceneObject/9c452511-81d5-454d-97f1-204fc9f66c97>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 45.000000, y: 80.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 882f945e-cefa-4111-a21f-178cbb266666
+    - !<own> bf15a55f-727c-485e-8be1-7fa59c92daaa
+    - !<own> b6189d68-6504-449a-a390-339143716752
+- !<RenderMeshVisual/b6189d68-6504-449a-a390-339143716752>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77a760cf-f9eb-41d4-b5eb-1f23a446c35b
+  Mesh: !<reference> e5c14297-9a33-4bdd-82fb-65e78515f5cb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bf15a55f-727c-485e-8be1-7fa59c92daaa>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 24dc546f-679c-425c-a4f4-3344aab36d42
+  Mesh: !<reference> 1c7284a8-6470-425c-9b0c-74fbefc067c8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/c51d955f-99e4-4a7f-88ae-cc55fa95125b>
+  SourceRemaps:
+    - 0e45133c-1c62-46f0-9acf-029bac3cd309: b6189d68-6504-449a-a390-339143716752
+    - 0f3d0877-a5cb-4c30-9dc7-9f3ec40bea9e: 900b9db2-06e0-494a-817e-9704e2daefa1
+    - 11a41258-47ee-4899-bc58-5c0206493499: ef90574c-52a0-4ecd-9ba6-e762e0913a03
+    - 26eb273d-b16b-4263-bb73-6693b1d5494f: 9c452511-81d5-454d-97f1-204fc9f66c97
+    - 29384939-9594-4892-8426-bb838d01c5b5: f22f7c33-2862-4f12-a992-66d81f1982a3
+    - 460e7bc8-2b36-4ca7-aef3-bf1d24d4023e: 8dbc8725-8d39-4e91-b695-07619e76f54f
+    - 4a0e1b0e-1ccc-4f18-9394-485a94bb67b4: 16039a11-68ff-405f-b9d8-dabd28170681
+    - 79295def-a02e-4597-ad59-50280bcb96d9: 882f945e-cefa-4111-a21f-178cbb266666
+    - 8a9f669e-30ef-4fbe-9b3f-733bc4d1fe19: 58043c98-415c-4b1b-aaec-7ae6585be2f8
+    - 93126e7c-a08e-4a76-8b97-265f288f64f6: bf15a55f-727c-485e-8be1-7fa59c92daaa
+    - b158ca00-580a-4348-a3d0-789909dfd83e: f9a9132d-9b6d-4c44-9777-440f255535e8
+    - b49476e4-0311-4e5d-b366-bff8fed6650f: 718582d9-39b5-42b0-b9b2-2524587fd331
+    - c844d076-314a-45a2-93ef-637f954dea88: 81d9cb81-9f97-4829-b4ae-238349ba98fb
+    - cc948842-111a-4a95-8fd9-593cf10e0bb5: 5384b167-d85d-49a7-ae38-0b1c6d9062c5
+    - ccd70948-61c7-4b08-aeaf-d3a33a5c0ab2: 198ad3f8-b4af-45c2-b79a-a0cc2a3e0127
+    - cce6a10c-00c1-4c02-9552-0f3bd6890f7a: 64617f9e-4bd0-4895-a9b3-15abec2ed977
+    - e153e890-9ccc-49e2-b0b9-d3bb5f83ac39: f42b1d6c-eb2b-47d1-8b80-25ed6ba5b2db
+  SourceState: !<own> f9a9132d-9b6d-4c44-9777-440f255535e8
+- !<Image/ef90574c-52a0-4ecd-9ba6-e762e0913a03>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 80ecb6e9-7961-42bf-8f8e-92039bc00bd5
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/f22f7c33-2862-4f12-a992-66d81f1982a3>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 24dc546f-679c-425c-a4f4-3344aab36d42
+  Mesh: !<reference> 1c7284a8-6470-425c-9b0c-74fbefc067c8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/f42b1d6c-eb2b-47d1-8b80-25ed6ba5b2db>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 800d55ae-9d34-4b29-8b66-cbe29d523104
+  Text: Lee Music Performance and Rehearsal Room
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<ObjectPrefab/f9a9132d-9b6d-4c44-9777-440f255535e8>
+  PackagePath: ""
+  objects:
+    - !<own> 58043c98-415c-4b1b-aaec-7ae6585be2f8
+  LazyLoading: false
+  RetainAssets: true
