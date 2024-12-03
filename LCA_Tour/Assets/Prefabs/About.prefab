@@ -1,0 +1,270 @@
+- !<ObjectPrefab/6b85c257-d754-4fd1-941e-1ed38c2cab22>
+  PackagePath: ""
+  objects:
+    - !<own> 04cc14f5-79d3-4fb9-b3ee-ce2a4dfd5a91
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/04cc14f5-79d3-4fb9-b3ee-ce2a4dfd5a91>
+  PrefabRemaps:
+    []
+  Name: About
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.782501, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e61397c0-af07-4ce5-91e3-68d984d1b33d
+    - !<own> 6bfad58c-03c5-485d-add5-20c197ca02a0
+    - !<own> 793e0b5e-c459-4619-bbd2-2ded47821d41
+  Components:
+    []
+- !<RenderMeshVisual/15762199-b378-4320-953c-39f23bd7e9d7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a6431ab-61a0-430e-9f16-955168b69281
+  Mesh: !<reference> 7d701fb8-2cdb-4e31-a254-14ff7942103e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3583762c-6243-4125-a871-1d28df73a186>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 12.755154, y: 2.524811, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da05926e-a2b2-4d0d-9994-790deef56697
+- !<RenderMeshVisual/46af8641-c3cf-4e28-9ef7-a35e5e479159>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 42d03528-b626-44dd-b7b8-b2a59e108780
+  Mesh: !<reference> 9f700038-e030-4b6e-8a2d-e052d0b7785f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6bfad58c-03c5-485d-add5-20c197ca02a0>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 702c3929-84a6-4553-ae72-71ad4e754c2f
+- !<Text3D/702c3929-84a6-4553-ae72-71ad4e754c2f>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |-
+    About
+    The Lewis Arts complex is home to the Programs
+    in Dance, Theater and Music Theater, and the
+    Princeton Atelier. The complex includes the
+    Wallace Dance Building and Theater, which
+    houses the Wallace Black Box Theater, the Hearst
+    Dance Theater, and several other theater and
+    dance studios, some of which are also used for
+    public performances; the Arts Tower, which
+    houses the Hurley Gallery, the CoLab, Ellie's
+    Dance Studio, a seminar room, administrative
+    offices, and is home to the Princeton Atelier; and
+    the Effron Music Building, which houses the Lee
+    Music Performance & Rehearsal Room, the
+    Princeton Laptop Orchestra (PLOrk) studio, the
+    Lee Jazz Studio, and two floors of instrumental
+    studios and practice rooms.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/7553dc65-6bed-41fe-a08e-a9736f79822d>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d302537e-ea57-44db-a8ca-6a33e086e56a
+  Mesh: !<reference> 5a23fd62-f35c-4f06-aace-6911e8c54989
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/793e0b5e-c459-4619-bbd2-2ded47821d41>
+  PrefabRemaps:
+    []
+  Name: 3D RightArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.682686, y: -30.503262, z: 25.852203}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> babeb140-78c0-414a-8120-8025593a26a5
+    - !<own> 3583762c-6243-4125-a871-1d28df73a186
+  Components:
+    []
+- !<SceneObject/babeb140-78c0-414a-8120-8025593a26a5>
+  PrefabRemaps:
+    []
+  Name: Arrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.025513, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 46af8641-c3cf-4e28-9ef7-a35e5e479159
+- !<Text3D/da05926e-a2b2-4d0d-9994-790deef56697>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dd23edf3-71a8-4a1e-afa4-ff156d38bb84
+  Text: |
+    This way to the information desk
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/e61397c0-af07-4ce5-91e3-68d984d1b33d>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 50.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15762199-b378-4320-953c-39f23bd7e9d7
+    - !<own> 7553dc65-6bed-41fe-a08e-a9736f79822d
+    - !<own> ec78a724-cb65-4058-b07c-39248a6f56cb
+- !<RenderMeshVisual/ec78a724-cb65-4058-b07c-39248a6f56cb>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f50fa730-ee1c-4bf8-b7d4-73ffbddc8c95
+  Mesh: !<reference> ca49280f-7256-4e0a-ab8a-2ac0df2aea2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,300 @@
+- !<AssetImportMetadata/9a8f8bb6-d048-4921-8b48-aad80f6b4868>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6b85c257-d754-4fd1-941e-1ed38c2cab22
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6b85c257-d754-4fd1-941e-1ed38c2cab22
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> cce77aa1-0e36-436a-9c48-dead76bbf53d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7a956bac-1d88-4ec5-b047-4111edd73db7>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/1fbe70b3-10d5-4f59-b995-1b85c0843429>
+  PrefabRemaps:
+    []
+  Name: Arrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.025513, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3c22f21d-ff6f-4e7e-a202-d56abd2e5c8d
+- !<SceneObject/2c9305b8-4754-4f09-9797-aff3d299b95d>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 12.755154, y: 2.524811, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85237200-b07f-4874-90e8-534a057611a2
+- !<RenderMeshVisual/3c22f21d-ff6f-4e7e-a202-d56abd2e5c8d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 42d03528-b626-44dd-b7b8-b2a59e108780
+  Mesh: !<reference> 9f700038-e030-4b6e-8a2d-e052d0b7785f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5ebfa272-ad10-4b58-85e3-bad5d93eb217>
+  PrefabRemaps:
+    []
+  Name: hanging_picture_frame_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 50.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 84c56bcd-421a-4f37-990a-c65438a5edec
+    - !<own> a8514883-bc31-46d6-984a-7cba01fc5489
+    - !<own> e3bd3261-2f3e-4cfa-bcde-c13a5c3a32af
+- !<RenderMeshVisual/84c56bcd-421a-4f37-990a-c65438a5edec>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a6431ab-61a0-430e-9f16-955168b69281
+  Mesh: !<reference> 7d701fb8-2cdb-4e31-a254-14ff7942103e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/85237200-b07f-4874-90e8-534a057611a2>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dd23edf3-71a8-4a1e-afa4-ff156d38bb84
+  Text: |
+    This way to the information desk
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<Text3D/9b178388-27cc-4b04-ab2d-c6349768663d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5643d99e-f6c4-40d2-bbd2-680105ac1ae5
+  Text: |-
+    About
+    The Lewis Arts complex is home to the Programs
+    in Dance, Theater and Music Theater, and the
+    Princeton Atelier. The complex includes the
+    Wallace Dance Building and Theater, which
+    houses the Wallace Black Box Theater, the Hearst
+    Dance Theater, and several other theater and
+    dance studios, some of which are also used for
+    public performances; the Arts Tower, which
+    houses the Hurley Gallery, the CoLab, Ellie's
+    Dance Studio, a seminar room, administrative
+    offices, and is home to the Princeton Atelier; and
+    the Effron Music Building, which houses the Lee
+    Music Performance & Rehearsal Room, the
+    Princeton Laptop Orchestra (PLOrk) studio, the
+    Lee Jazz Studio, and two floors of instrumental
+    studios and practice rooms.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.050000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<RenderMeshVisual/a8514883-bc31-46d6-984a-7cba01fc5489>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d302537e-ea57-44db-a8ca-6a33e086e56a
+  Mesh: !<reference> 5a23fd62-f35c-4f06-aace-6911e8c54989
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/cce77aa1-0e36-436a-9c48-dead76bbf53d>
+  SourceRemaps:
+    - 04cc14f5-79d3-4fb9-b3ee-ce2a4dfd5a91: eb79aab1-5894-4084-b6bf-cc94946826de
+    - 15762199-b378-4320-953c-39f23bd7e9d7: 84c56bcd-421a-4f37-990a-c65438a5edec
+    - 3583762c-6243-4125-a871-1d28df73a186: 2c9305b8-4754-4f09-9797-aff3d299b95d
+    - 46af8641-c3cf-4e28-9ef7-a35e5e479159: 3c22f21d-ff6f-4e7e-a202-d56abd2e5c8d
+    - 6b85c257-d754-4fd1-941e-1ed38c2cab22: db1d190d-5982-407f-9933-68fe98623dfb
+    - 6bfad58c-03c5-485d-add5-20c197ca02a0: e670244a-be14-4fd9-8a9a-e6cafe5a6bad
+    - 702c3929-84a6-4553-ae72-71ad4e754c2f: 9b178388-27cc-4b04-ab2d-c6349768663d
+    - 7553dc65-6bed-41fe-a08e-a9736f79822d: a8514883-bc31-46d6-984a-7cba01fc5489
+    - 793e0b5e-c459-4619-bbd2-2ded47821d41: f48f5264-9ae7-478f-b0fc-60a72de5217d
+    - babeb140-78c0-414a-8120-8025593a26a5: 1fbe70b3-10d5-4f59-b995-1b85c0843429
+    - da05926e-a2b2-4d0d-9994-790deef56697: 85237200-b07f-4874-90e8-534a057611a2
+    - e61397c0-af07-4ce5-91e3-68d984d1b33d: 5ebfa272-ad10-4b58-85e3-bad5d93eb217
+    - ec78a724-cb65-4058-b07c-39248a6f56cb: e3bd3261-2f3e-4cfa-bcde-c13a5c3a32af
+  SourceState: !<own> db1d190d-5982-407f-9933-68fe98623dfb
+- !<ObjectPrefab/db1d190d-5982-407f-9933-68fe98623dfb>
+  PackagePath: ""
+  objects:
+    - !<own> eb79aab1-5894-4084-b6bf-cc94946826de
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/e3bd3261-2f3e-4cfa-bcde-c13a5c3a32af>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f50fa730-ee1c-4bf8-b7d4-73ffbddc8c95
+  Mesh: !<reference> ca49280f-7256-4e0a-ab8a-2ac0df2aea2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e670244a-be14-4fd9-8a9a-e6cafe5a6bad>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9b178388-27cc-4b04-ab2d-c6349768663d
+- !<SceneObject/eb79aab1-5894-4084-b6bf-cc94946826de>
+  PrefabRemaps:
+    []
+  Name: About
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.782501, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5ebfa272-ad10-4b58-85e3-bad5d93eb217
+    - !<own> e670244a-be14-4fd9-8a9a-e6cafe5a6bad
+    - !<own> f48f5264-9ae7-478f-b0fc-60a72de5217d
+  Components:
+    []
+- !<SceneObject/f48f5264-9ae7-478f-b0fc-60a72de5217d>
+  PrefabRemaps:
+    []
+  Name: 3D RightArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.682686, y: -30.503262, z: 25.852203}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1fbe70b3-10d5-4f59-b995-1b85c0843429
+    - !<own> 2c9305b8-4754-4f09-9797-aff3d299b95d
+  Components:
+    []

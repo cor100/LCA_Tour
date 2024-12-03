@@ -23,7 +23,7 @@
   Properties:
     Port_Default_N204:
       typeIdx: 1
-      value: 0.000000
+      value: 1.000000
     PreviewEnabled:
       typeIdx: 0
       value: 0

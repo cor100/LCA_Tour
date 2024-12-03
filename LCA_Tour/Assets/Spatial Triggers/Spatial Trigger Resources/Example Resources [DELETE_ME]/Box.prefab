@@ -1,0 +1,64 @@
+- !<ObjectPrefab/f2d8059c-1586-45bd-ab73-f6b65ee8e95d>
+  PackagePath: "Spatial Trigger Resources/Example Resources [DELETE_ME]/Box"
+  objects:
+    - !<own> 7dfd0ba6-89d9-40a9-a353-0703586e511a
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/7dfd0ba6-89d9-40a9-a353-0703586e511a>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 3.000000, y: 3.000000, z: 3.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b1aec4c8-d957-4825-959d-4a3f3b8daa0e
+- !<RenderMeshVisual/b1aec4c8-d957-4825-959d-4a3f3b8daa0e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5bb6c185-4e24-4c1d-bd78-0cb76c8efd7c
+  Mesh: !<reference> 11c1347b-7fbb-4b4d-b284-10c027f5cd00
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
