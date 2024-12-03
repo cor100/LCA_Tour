@@ -213,7 +213,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> ae748cb4-8c1b-4007-b534-2cc616029c20
-    - !<own> 283c8b22-cc15-4b03-80ea-a3fa09e39e83
   Components:
     - !<own> 72a19b7e-ee8e-41a5-b097-25d30e4f0ea3
 - !<RenderMeshVisual/02fa64de-4b89-4d34-89bf-63dd73dc6800>
@@ -1085,7 +1084,7 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.600000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: !<float> 5.000000
+    TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
@@ -1094,7 +1093,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
@@ -1104,7 +1103,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     OffsetX: 0.250000
@@ -1115,7 +1114,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Margins:
@@ -1194,20 +1193,14 @@
     []
 - !<SceneObject/283c8b22-cc15-4b03-80ea-a3fa09e39e83>
   PrefabRemaps:
-    - 141e884d-6c51-40e0-aad1-98e73a396430: 7dcdef4d-40e5-4aac-8ab6-603ea222cc3e
-    - 283c8b22-cc15-4b03-80ea-a3fa09e39e83: 96a18914-3d85-4221-90af-882b1325bfa9
-    - 29e3e555-575d-48f6-8b47-8445a0646605: 582d66b6-21c6-4383-aed4-e94ce1b33e37
-    - 552e0758-7ac1-44ab-83ac-0f27fca40a41: 2c9405a8-d4c6-49dc-8dc4-84629127ef42
-    - 58444462-0145-4769-ae75-ab562c964c54: 3fef72b8-5ca7-4b28-8ed6-321f6abb1307
-    - 8c15eb81-525f-4c30-8e10-daf2db7d552f: 3e61c27d-04fa-47d9-8f89-220ca5f41564
-    - 960034d7-0715-4e26-bc67-9d26fb36fb90: 1cfdfa1e-8b7d-4bfd-9d80-83dbb6c63940
+    []
   Name: Lee_Pic
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 197.491669, y: -69.922043, z: -40.000000}
+    position: {x: -0.000015, y: 15.926208, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 552e0758-7ac1-44ab-83ac-0f27fca40a41
@@ -1433,7 +1426,7 @@
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
-    TileCount: !<float> 5.000000
+    TileCount: 5.000000
     TileZone: Rect
     TextureStretch: FitWidth
   Outline: !<OutlineSettings/00000000-0000-0000-0000-000000000000>
@@ -1442,7 +1435,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Size: 0.250000
@@ -1452,7 +1445,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     OffsetX: 0.250000
@@ -1463,7 +1456,7 @@
       Mode: Solid
       Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
       Texture: !<reference> 00000000-0000-0000-0000-000000000000
-      TileCount: !<float> 5.000000
+      TileCount: 5.000000
       TileZone: Rect
       TextureStretch: FitWidth
     Margins:
@@ -2362,6 +2355,7 @@
   Children:
     - !<own> 05133268-f356-4677-978f-de743d27e020
     - !<own> d4a51ca3-2097-46ec-8ba2-6f77114fc1c1
+    - !<own> 798934cb-b23e-433b-adb3-d5ef440ecfc3
   Components:
     []
 - !<SceneObject/552e0758-7ac1-44ab-83ac-0f27fca40a41>
@@ -3322,9 +3316,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 168.108337, y: 6.644497, z: -40.000000}
+    position: {x: -17.751762, y: 40.293304, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> a740ce03-fa23-494e-948b-a60c86fe522e
@@ -4722,6 +4716,7 @@
   Children:
     - !<own> 5c32345c-7414-4e6a-8c82-68241177ce2d
     - !<own> 82868202-3968-4e42-9c91-bf4794f73e4e
+    - !<own> 283c8b22-cc15-4b03-80ea-a3fa09e39e83
   Components:
     []
 - !<SceneObject/af32af6b-c551-4b52-a0c5-5e9c05af54e8>
@@ -5449,7 +5444,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 54d69251-9c80-41e1-bc73-704bbcbcb79c
-    - !<own> 798934cb-b23e-433b-adb3-d5ef440ecfc3
   Components:
     - !<own> 619a4b94-ae44-4035-b892-5cf014b63bc8
 - !<SceneObject/db1b8524-d3b6-43fd-a346-94d92cb7d86b>
@@ -5561,7 +5555,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> e09eb243-a081-4aa7-aba7-b7a5f8b10201
-    - !<own> f65507af-4545-4367-91c9-0534d0f1033c
   Components:
     - !<own> 9c04f6b3-1b6e-4da5-be00-0da664951070
 - !<SceneObject/df203e62-7c0b-45a7-a5f0-9518c837a0c1>
@@ -5632,6 +5625,7 @@
   Children:
     - !<own> b0b7b818-ff0c-4cad-bf69-a14b0de6c6fa
     - !<own> 74206aea-37d5-4b32-93ed-94ad7eb9436f
+    - !<own> f65507af-4545-4367-91c9-0534d0f1033c
   Components:
     []
 - !<SceneObject/e140ae1e-ed7c-4ff6-930d-72d52da251f8>
@@ -6087,9 +6081,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 185.206924, y: 88.293457, z: -40.000000}
+    position: {x: -0.026779, y: 42.873127, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> bef6d4f1-f864-44c1-9d49-4c458e61ca52

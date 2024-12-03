@@ -61,6 +61,7 @@ Assets/**/*.location_mesh !filter !diff !merge text linguist-language=yaml merge
 Assets/**/*.mapModule !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.mat !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.matter !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
+Assets/**/*.mediaPickerTexture !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.micaudio !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.microphoneRawModule !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.motionControllerModule !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
@@ -73,6 +74,7 @@ Assets/**/*.rawLocationModule !filter !diff !merge text linguist-language=yaml m
 Assets/**/*.rayTracingSettings !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.remoteMLAsset !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.remoteMediaModule !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
+Assets/**/*.remoteReferenceAsset !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.remoteServiceModule !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.renderTarget !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge
 Assets/**/*.reverseCameraTexture !filter !diff !merge text linguist-language=yaml merge=lens-studio-yaml-merge

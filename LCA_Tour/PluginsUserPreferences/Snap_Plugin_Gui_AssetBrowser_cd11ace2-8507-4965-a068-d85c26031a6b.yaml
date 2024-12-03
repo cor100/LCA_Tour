@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 704
+    size: 703
     values:
       - 3D RightArrow.prefab
       - Art1.jpeg
@@ -72,7 +72,6 @@ CollapsedEntities:
       - Scene.scene
       - Screenshot 2024-10-31 at 4.50.16 PM.png
       - Script.js
-      - Scripts
       - Spatial Triggers
       - Spatial Triggers/.hidden
       - Spatial Triggers/.hidden/Textures
