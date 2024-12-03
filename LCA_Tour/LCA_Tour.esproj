@@ -11,7 +11,7 @@ viewConfig:
     cameraFov: nan
     fullFrameAspect: 0.666660
     viewport: Maximized
-    output: ConnectedLenses
+    output: Live
     stereoOutputEye: Center
     deviceTypeOverride: Spectacles
   cameraType: Front

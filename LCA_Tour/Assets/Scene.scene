@@ -753,7 +753,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 306cdad4-8b73-4837-a4f6-6c2d078c09a7
-    - !<own> 571c1bbd-4bb4-4ba4-a006-e2c4f9703ae5
   Components:
     - !<own> 6a366f49-d629-41a7-9eaa-67f0b7d42fd9
 - !<SceneObject/10e5e716-1df4-4b5f-9907-7489ea6744d0>
@@ -1501,6 +1500,7 @@
   Children:
     - !<own> d5606414-1ce3-47e5-8171-6d911798f981
     - !<own> 8686df98-a82e-473e-90e0-29ab60210b9d
+    - !<own> 571c1bbd-4bb4-4ba4-a006-e2c4f9703ae5
   Components:
     []
 - !<RenderMeshVisual/31ef1663-05be-428c-aec2-469dd0de9d3a>
@@ -2502,9 +2502,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 13.128716, y: 100.273544, z: -40.000000}
+    position: {x: 23.771732, y: 27.999882, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 953954ba-c2a1-4d6e-a7ab-dd95b9731ec2
@@ -4202,7 +4202,7 @@
   Enabled: false
   Layers: 1
   LocalTransform:
-    position: {x: 0.825276, y: 0.300000, z: 0.000000}
+    position: {x: 0.825276, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -5539,8 +5539,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.825276, y: 0.300000, z: 0.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
